@@ -1,0 +1,3 @@
+acl url1 dstdomain -i 127.0.0.1 portalrecarga.vivo.com.br/recarga/home
+acl url2 dstdomain -i localhost d1n212ccp6ldpw.cloudfront.net
+acl url4 dstdomain -i localhost www.portalsva2.vivo.com.br/captive-static/tarif-def/pd/index.html
