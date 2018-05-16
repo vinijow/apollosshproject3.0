@@ -1,5 +1,6 @@
 acl payload dstdomain -i "/etc/squid3/payload.txt"
 acl keep dstdomain -i .keeptunnel.com.br
+acl git dstdomain -i .github.com
 acl net dstdomain -i .suicanet4g.com
 
 http_access allow net
