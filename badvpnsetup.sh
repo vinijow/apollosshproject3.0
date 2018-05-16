@@ -31,7 +31,7 @@ if [[ "$resposta" = 's' ]]; then
 	sleep 3
 	apt-get update -y
 	apt-get install screen wget gcc build-essential g++ make -y
-	wget https://drive.google.com/uc?authuser=0&id=1zB1XPb-z8g4MK88wSK59NV4fZq6pd1EK&export=download
+	wget https://github.com/vinijow/apollosshproject3.0/blob/master/cmake-2.8.12.tar.gz
 	tar xvzf cmake*.tar.gz
 	cd cmake*
 	./bootstrap --prefix=/usr
@@ -41,7 +41,7 @@ if [[ "$resposta" = 's' ]]; then
 	rm -r cmake*
 	mkdir badvpn-build
 	cd badvpn-build
-	wget https://drive.google.com/uc?authuser=0&id=15tC9qJVRRosUSx4SVAhgxqGNSxSZC7dY&export=download
+	wget https://github.com/vinijow/apollosshproject3.0/blob/master/badvpn-1.999.128.tar.bz2
 	tar xf badvpn-1.999.128.tar.bz2
 	cd bad*
 	cmake -DBUILD_NOTHING_BY_DEFAULT=1 -DBUILD_UDPGW=1
